@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+body
+{
+font-family:'Nunito',sans-sarif;
+background:green;
+}
+.content{
+	grid-area:content;
+	
+	
+}
+.footer{
+	grid-area:footer;
+	background:white;
+}
+
+.container{
+	font-size:1.5em;
+	width:100p%;
+	height:100vh;
+	display:grid;
+	grid-template-areas;
+	"slider"
+	"content"
+	"footer";
+	grid-template-columns: 1fr;
+	grid-template-rows:130px 808px 250px;
+	
+}
+
+#p{
+	height:1000px;
+	width:1400px;
+	border:2px solid black;
+	color:white;
+	background-image:url(images/red.jpg);
+	
+    
+}
+#m{
+	height:1000px;
+	width:1200px;
+    border:2px solid black;
+	background-color:pink;
+	background-image:url(images/vibrant.jpg);
+	color:red;
+} 
+
+#h{
+	height:1000px;
+	width:1200px;
+	border:2px solid red;
+	background-color:pink;
+	background-image:url(images/rose.jpg);
+    color:red;
+}
+</style>
+
+</head>
+<body>
+   <div class="container">
+   <div class="sidebar">
+   
+<nav>
+
+<center>Hello,this is shikha mishra from mp polytechnic and this is my portofolio which is created by me .</center>
+<h1>personal portofolio</h1>
+ <ul>
+ 
+    <li><a href="#m">about</a></li>
+      <li><a href="#p">cv</a></li>
+      <li><a href="#h">contact</a></li>
+  </ul>
+</nav>
+  <div class="content">
+  <section class="hero">
+   <img src="images/butter.jpeg" />
+    <div class="hero-content">
+     <h4>hello,</h4>
+      <p>This is shikha mishra .I am a student of MP polytechnic gorakhnath gkp.</p>
+              
+    </div>
+  </section>
+   </div>
+   <br/>
+    <div class="footer">
+<footer>
+<div id="p">
+<u><center>CV</center></u><br/>
+<u>CARRER OBJECTIVE :-</u>To be associate with prograssive ang professional organizetion with challenging and responsive opportunity to utilize my skills to- words
+organizational and persoal growth.<br/><br/>
+
+
+<u>PERSONAL INFORMATION:-</u><br/>
+NAME:-shikha mishra<br/> 
+FATHER'S NAME:-Mr. pradeep mishra<br/> 
+EMAIL ID:-shikhamishracsgkp@gmail.command<br/>
+LANGUAGE:-english and hindi also<br/><br/>
+
+
+<u>ACADEMIC QUALIFICATION:-</u>
+<br/>
+COURSE:-diploma in (computer science)<br/>
+NAME OF THE INSITITUDE:-MP polytechnic<br/>
+BOARD:-Bteup<br/><br/>
+
+<u>TECHNICAL QUALIFICATION</u><br/>
+<ul>
+   <li>well versed in m.s office.</li>
+   <li>i have experience of markup language</li>
+   </ul><br/><br/>
+   
+ <u>STRENGTH:-</u><br/>
+<ul>
+<li>quick learner.</li>
+<li>team player.</li>
+<li>scicere & punctual.</li>
+<li>adaptability..</li>
+</ul> <br/>
+
+<u>DECLARATION:-</u>
+i hereby decalre that the above information for furnished by me are true to the best of my knowledge & belief.<br/></br>
+
+<b><u>SINGNATURE</b><u><br/>
+<i>shikha mishra</i>
+</div><br/><br/>
+<div id ="m">
+<u><h1>ABOUT:-</u></h1>
+ I am shikha mishra from mp polytechnic gorakhnath gkp
+now i learning python  with django from "SOFTPRO INDIA(lucknow )." 
+ <h3>DREAM:-software engineer.</h3>
+
+</div>
+<br/><br/>
+<div id="h">
+<u>CONTACT</u><br/>
+phone number:-6388725445<br/>
+facebook id:-pradeep kumar<br/>
+<u>ADDRESS:-</u><br/><br/>
+Mohanlalpur , Tiwaripur gkp
+ 
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
